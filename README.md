@@ -1,7 +1,6 @@
 # EazyZipArchiver
 
-**EazyZipArchiver** is a lightweight GUI tool written in Rust that lets you quickly zip files and folders via a simple drag-and-drop interface.  
-Built with [`egui`](https://github.com/emilk/egui) and [`zip`](https://crates.io/crates/zip), it's a compact and fast utility for quick archiving tasks.
+**EazyZipArchiver** is a lightweight Archive tool written in Rust that lets you quickly zip files and folders via a simple drag-and-drop interface. 
 
 ---
 
@@ -10,11 +9,8 @@ Built with [`egui`](https://github.com/emilk/egui) and [`zip`](https://crates.io
 - 🖱 Drag-and-drop file/folder archiving
 - 📦 Outputs standard `.zip` files
 - ⚡️ Fast and minimal — built in Rust with native performance
-- 🪶 GUI powered by `eframe` / `egui`
 
 ---
-
-## 🚀 Getting Started
 
 ### 📦 Prerequisites
 
