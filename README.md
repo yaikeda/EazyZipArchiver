@@ -1,45 +1,35 @@
 # EazyZipArchiver
 
-EazyZipArchiver is a lightweight and simple file compression tool built with .NET.  
-It allows users to zip files and folders via a drag-and-drop GUI interface, with a focus on minimal setup and ease of use.
+**EazyZipArchiver** is a lightweight GUI tool written in Rust that lets you quickly zip files and folders via a simple drag-and-drop interface.  
+Built with [`egui`](https://github.com/emilk/egui) and [`zip`](https://crates.io/crates/zip), it's a compact and fast utility for quick archiving tasks.
 
 ---
 
 ## ✨ Features
 
-- 📦 Drag-and-drop interface for quick file archiving
-- 📁 Support for both single files and directories
-- 🔧 Simple configuration with `.config` file support
-- 🪶 Minimal dependencies (pure .NET-based)
-- 🖥️ Compact and clean UI
+- 🖱 Drag-and-drop file/folder archiving
+- 📦 Outputs standard `.zip` files
+- ⚡️ Fast and minimal — built in Rust with native performance
+- 🪶 GUI powered by `eframe` / `egui`
 
 ---
 
-## 🛠 Requirements
+## 🚀 Getting Started
 
-- .NET Framework (version depends on your project setting — typically 4.5 or later)
-- Visual Studio (for development/building)
+### 📦 Prerequisites
 
----
+- Rust (latest stable)
+- Cargo
 
-## 🚀 How to Use
+### 🛠 Build & Run
 
-1. **Launch the application**
-2. **Drag and drop** files or folders into the window
-3. A `.zip` archive will be created in the same directory
+```bash
+git clone https://github.com/yaikeda/EazyZipArchiver.git
+cd EazyZipArchiver
+cargo run --release
+```
 
-You can also configure default behavior via the accompanying `.config` file (see below).
-
----
-
-## ⚙ Configuration
-
-The app supports a simple config system to customize behavior.
-
-Example:
-
-```xml
-<appSettings>
-  <add key="DefaultCompressionLevel" value="Fastest"/>
-  <add key="OverwriteExisting" value="true"/>
-</appSettings>
+or Build Binary
+```
+cargo build --release
+```
