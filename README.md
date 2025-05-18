@@ -3,8 +3,6 @@
 EazyZipArchiver is a lightweight and simple file compression tool built with .NET.  
 It allows users to zip files and folders via a drag-and-drop GUI interface, with a focus on minimal setup and ease of use.
 
-![screenshot](screenshot.png) <!-- Replace with actual image if needed -->
-
 ---
 
 ## ✨ Features
